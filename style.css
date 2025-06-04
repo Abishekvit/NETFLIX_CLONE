@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+/* Navbar styling */
+.navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,
+    rgba(0,0,0,0.7) 0%,
+    rgba(0,0,0,0) 100%);
+    z-index: 100;
+    transition: background-color 0.5s;
+}
+.navbar-color{
+    background-color: #141414;
+}
+.logo{
+    height: 25px;
+    cursor:pointer;
+}
+.navbar-nav{
+    display: flex;
+    gap:20px;
+}
+.nav-link{
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+    font-weight: 540;
+}
+.nav-link:hover{
+    color: #b3b3b3;
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+.navbar-right i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.profile-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+.netflix-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.netflix-avatar i{
+    font-size: 13px;
+    transform: scaleX(1.1);
+}
+.netflix-avatar:hover i{
+    transform: rotate(180deg);
+}
+.down-bar{
+    width: 218px;
+    height: 300px;
+    background-color: black;
+    box-shadow: 0 0 0.5px white;
+    position: absolute;
+    right: 60px;
+    top: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.down-bar div{
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 0.9rem;
+}
+.nav-link.no-transition{
+    transition: none !important;
+}
+.nav-link.no-transition:hover {
+  color: inherit;
+}
+
+/* Hero Section */
+.hero{
+    height: 80vh;
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.4) 0%,
+        rgba(0,0,0,0.8) 100%
+    ),
+    url('stranger-things.webp') center/cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 0px 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.hero-description {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #e5e5e5;
+}
+.hero-button {
+  display: flex;
+  gap: 16px;
+}
+.btn{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    padding: 10px;
+}
+.btn-play,.btn-more-info{
+    background-color: #fff;
+    color: #000;
+}
+.btn-play:hover{
+    background-color: rgba(255,255,255,0.75);
+}
+.btn-more-info:hover{
+    background-color: rgba(109,109,110,0.4);
+}
+/* Footer */
+.netflix-footer{
+    margin-top: 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-social-handles{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 1.7rem 2.4rem;
+}
+.footer-social-handles i{
+    margin-right: 18px;
+    color: #b3b3b3a9;
+}
+.footer-nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    color: #b3b3b3a9;
+    font-size: 11px;
+}
+.nav-column{
+    width:25%;
+    margin-bottom: 1.5rem;
+}
+.nav-column h3{
+    transform: scale(1.07,1);
+    margin-left: 54px;
+    font-weight: 540;
+    margin-bottom: 15px;
+}
+.service-code{
+    margin-top: 1rem;
+    margin-left: 44px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn-service-code{
+    background-color: black;
+    border: 0.1px solid #b3b3b3a9;
+    color: #b3b3b3a9;
+    border-radius: 0;
+    font-size: 14px;
+    transform: scale(1.05,1);
+}
+.service-code-end{
+    color: #b3b3b3a9;
+    font-size: 11px;
+    font-weight: 100;
+    transform: scale(1.05,1);
+    margin-top: 1rem;
+}
+@media(max-width:520px){
+    .nav-column{
+        width: 50%;
+    }
+    .footer-social-handles{
+        justify-content: center;
+    }
+}
