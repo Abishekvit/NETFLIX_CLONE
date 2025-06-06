@@ -52,7 +52,23 @@ Edit
 
 ## 📸 Screenshots
 
-> Add screenshots here in the future to showcase different sections like the navbar, hero section, and content rows.
+### 🏠 1. Home Page
+![Home Page](assets/one.png)
+
+### 🎞️ 2. Content Row (Card Section)
+![Card Row](assets/two.png)
+
+### 📩 3. Footer Section
+![Footer](assets/three.png)
+
+### 🖱️ 4. Card Hover Interaction
+![Card Hover](assets/four.png)
+
+### 👤 5. Profile Icon Hover (Down Bar)
+![Profile Downbar](assets/five.png)
+
+### 📄 6. Page Navigation / New Page View
+![New Page](assets/six.png)
 
 ---
 
