@@ -52,6 +52,7 @@ Edit
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 ### 🏠 1. Home Page
 ![Home Page](assets/one.png)
 
@@ -69,6 +70,9 @@ Edit
 
 ### 📄 6. Page Navigation / New Page View
 ![New Page](assets/six.png)
+=======
+> (assets/one.png)
+>>>>>>> 549c6fb03775d752749abf00270507d0f86a965c
 
 ---
 
@@ -99,4 +103,4 @@ Edit
 
 ## 📃 License
 
-This project is for educational and demo purposes only. It is **not** affiliated wit
+This project is for educational and demo purposes only. It is **not** affiliated with or endorsed by Netflix Inc.
