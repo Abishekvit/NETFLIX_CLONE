@@ -10,7 +10,8 @@ body{
     color: #fff;
 }
 html, body {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -196,6 +197,8 @@ html, body {
     padding-bottom: 4.5rem;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    z-index: 1;
+    position: relative;
 }
 
 .hero-content {
