@@ -9,13 +9,7 @@ body{
     background-color: #141414;
     color: #fff;
 }
-html, body {
-  height: auto;
-  min-height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-}
+
 /* Navbar styling */
 
 .navbar{
@@ -29,7 +23,7 @@ html, body {
     background: linear-gradient(to bottom,
     rgba(0,0,0,0.7) 0%,
     rgba(0,0,0,0) 100%);
-    z-index: 100;
+    z-index: 500;
     transition: background-color 0.5s;
 }
 .navbar-color{
@@ -197,8 +191,6 @@ html, body {
     padding-bottom: 4.5rem;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    z-index: 1;
-    position: relative;
 }
 
 .hero-content {
