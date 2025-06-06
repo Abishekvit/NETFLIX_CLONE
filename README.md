@@ -52,7 +52,6 @@ Edit
 
 ## 📸 Screenshots
 
-<<<<<<< HEAD
 ### 🏠 1. Home Page
 ![Home Page](assets/one.png)
 
@@ -70,10 +69,6 @@ Edit
 
 ### 📄 6. Page Navigation / New Page View
 ![New Page](assets/six.png)
-=======
-> (assets/one.png)
->>>>>>> 549c6fb03775d752749abf00270507d0f86a965c
-
 ---
 
 ## 🧠 How It Works
