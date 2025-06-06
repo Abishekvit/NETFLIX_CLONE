@@ -52,7 +52,7 @@ Edit
 
 ## 📸 Screenshots
 
-> Add screenshots here in the future to showcase different sections like the navbar, hero section, and content rows.
+> (assets/one.png)
 
 ---
 
@@ -83,4 +83,4 @@ Edit
 
 ## 📃 License
 
-This project is for educational and demo purposes only. It is **not** affiliated wit
+This project is for educational and demo purposes only. It is **not** affiliated with or endorsed by Netflix Inc.
