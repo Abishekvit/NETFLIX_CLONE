@@ -75,7 +75,7 @@ body{
 }
 .down-bar{
     padding-top: 0.2rem;
-    width: 218px;
+    width: 210px;
     height: 300px;
     background-color: black;
     box-shadow: 0 0 0.5px white;
@@ -86,21 +86,85 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 .down-bar div{
     display: flex;
     align-items: center;
-    margin: 0.6rem 0.9rem 0rem 0.7rem;
+    margin: 0.8rem 0.9rem 0rem 0.7rem;
+}
+.profile-box div{
+  width: 100%;
+  margin:0.5rem 0 0 0 ;
+  padding: 0;
 }
 .profile-box{  
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    position: relative;
+    bottom: 1.1rem;
+    font-size: 7px !important;
 }
-.profile-box div{
+.sign-out{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 1.1rem;
+  right: 0.8rem;
+  font-size: 14px;
+  transform: scaleX(1.1);
+}
+.opacity-downbar{
+  opacity: 1;
+}
+/* .profile-box .two{
     position: relative;
     right: 3rem;
+    bottom: 0.3rem;
+}
+.profile-box .one{
+  position: relative;
+  right: 0.7rem;
+}
+.profile-box .one~a{
+  position: relative;
+  right: 0.75rem;
+}
+.profile-box .two~a{
+  position: relative;
+  right: 3.1rem;
+  bottom: 0.3rem;
+} */
+.other-content div{
+  margin: 0 0;
+  width: 100%;
+}
+.other-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  bottom: 1.4rem;
+  left: 0rem;
+}
+.other-content img{
+  width: 37px;
+  height: 37px;
+  margin-right: 0.3rem;
+}
+.navlink{
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+    font-weight: 550;
 }
 .nav-link.no-transition{
     transition: none !important;
@@ -116,7 +180,7 @@ body{
         rgba(0,0,0,0.4) 0%,
         rgba(0,0,0,0.8) 100%
     ),
-    url('stranger-things.webp') center/cover;
+    url('assets/stranger-things.webp') center/cover;
     display: flex;
     align-items:flex-end;
     justify-content: flex-start;
