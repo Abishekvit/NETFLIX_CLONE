@@ -7,6 +7,10 @@
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar">
@@ -38,37 +42,456 @@
             <p class="hero-description">When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>
             <div class="hero-button">
                 <button class="btn btn-play"><i class="fa fa-play"></i>Play</button>
-                <button class="btn btn-more-info"><i class="fa fa-info-circle"></i>More info</button>
+                <button class="btn btn-more-info"><i class="fa-solid fa-info-circle"></i>More Info</button>
             </div>
         </div>
     </header>
     <!-- Movie-row -->
-     <div class="container">
-        <section class="content-section">
-            <h2 class="section-title">Only On Netflix</h2>
-            <div class="content-row">
-                <!-- Cards -->
-                 <div class="content-card">
-                    <img src="missionimpossible.jpg" alt="Movie card">
-                    <div class="netflix-batch">N</div>
-                    <div class="card-title">Mission Impossible</div>
-                    <div class="overlay-bottom">
-                        <div class="overlay-control">
-                            <div class="control-btn play-btn"></div>
-                            <div class="control-btn check-btn"></div>
-                            <div class="control-btn thumbs-btn"></div>
-                            <div class="control-btn more-btn"></div>
-                        </div>
-                        <div class="overlay-info">
-                            <div class="info-batch">TV-MA</div>
-                            <div class="info-batch">Limited Series</div>
-                            <div class="info-batch">HD</div>
-                        </div>
-                    </div>
-                 </div>
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Only On Netflix</h2>
+        <div class="content-row">
+          <!-- cards -->
+          <div class="content-card" id="mi">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">Mission Impossible</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">Mission Impossible</div>
+                <div class="movie-name front">Mission Impossible</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limited Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
             </div>
-        </section>
-     </div>
+          </div>
+
+          <div class="content-card" id="mh">
+            <img src="moneyheist.avif" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">Money Heist</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">Money Heist</div>
+                <div class="movie-name front">Money Heist</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Heist Thriller</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card" id="st">
+            <img src="strangerthings.png" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">Stranger Things</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">Stranger Things</div>
+                <div class="movie-name front">Stranger Things</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-14</div>
+                  <div class="info-badge">Sci-Fi</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card" id="tr">
+            <img src="theroyals.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">The Royals</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">The Royals</div>
+                <div class="movie-name front">The Royals</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Drama</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card" id="tg">
+            <img src="tangerines.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">When Life Gives You Tangerines</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">When Life Gives You Tangerines</div>
+                <div class="movie-name front">When Life Gives You Tangerines</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-PG</div>
+                  <div class="info-badge">Feel-Good</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card" id="na">
+            <img src="narcos.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name back">Narcos</div>
+            <div class="card-overlay">
+              <div class="overlay-top"><div class="netflix-badge">N</div></div>
+              <div class="overlay-bottom">
+                <div class="movie-name front-top">Narcos</div>
+                <div class="movie-name front">Narcos</div>
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Crime Drama</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     <section class="content-section">
+        <h2 class="section-title">Top Searches</h2>
+        <div class="content-row">
+          
+          <div class="content-card" id="ht">
+            <img src="hit-the-third-case.jpg" alt="Hit: The Third Case" />
+            <div class="back">Hit: The Third Case</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Thriller</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="content-card" id="re">
+            <img src="retro.jpg" alt="Retro" />
+            <div class="back">Retro</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-14</div>
+                  <div class="info-badge">Drama</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="content-card" id="td">
+            <img src="the-diplomat.jpg" alt="The Diplomat" />
+            <div class="back">The Diplomat</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Political</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+          <div class="content-card" id="si">
+            <img src="sikandar.jpg" alt="Sikandar" />
+            <div class="back">Sikandar</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">PG</div>
+                  <div class="info-badge">Fantasy</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="content-card" id="ch">
+            <img src="chhaava.jpg" alt="Chhaava" />
+            <div class="back">Chhaava</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-14</div>
+                  <div class="info-badge">Historical</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="content-card" id="ja">
+            <img src="jawan.jpg" alt="Jawan" />
+            <div class="back">Jawan</div>
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Action</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="content-section">
+        <h2 class="section-title">TV Shows</h2>
+        <div class="content-row">
+          <!-- Cards -->
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-card">
+            <img src="missionimpossible.jpg" alt="Movie card" />
+            <div class="netflix-badged">N</div>
+            <div class="movie-name">When Life gives you Tangerines</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-badge">N</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">TV-MA</div>
+                  <div class="info-badge">Limites Series</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
      <!-- footer -->
     <footer class="netflix-footer">
         <div class="footer-social-handles">
