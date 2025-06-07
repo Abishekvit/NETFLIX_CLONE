@@ -69,6 +69,12 @@ Edit
 
 ### 📄 6. Page Navigation / New Page View
 ![New Page](assets/six.png)
+
+### 📄 7. Home Page Half viewport
+![New Page](assets/seven.png)
+
+### 📄 8. New Page Half viewport
+![New Page](assets/eight.png)
 ---
 
 ## 🧠 How It Works
