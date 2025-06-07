@@ -21,21 +21,23 @@ A responsive and interactive clone of Netflix’s UI built with HTML, CSS, and J
 
 ---
 
-## Folder Structure
-
+## 📁 Folder Structure
+```
 NETFLIX_CLONE/
 │
-├── assets/ # All images and icons
-│ ├── missionimpossible.jpg
-│ ├── narcos.jpg
-│ ├── ...
+├── assets/                  # All images and icons
+│   ├── missionimpossible.jpg
+│   ├── narcos.jpg
+│   └── ...
 │
-├── index.html # Main HTML file
-├── styles.css # Core styling
-├── profile-details.html # Redirect HTML file
-├── profile-details.css # Redirect styling
-├── app.js # Interaction logic
-└── README.md # For better understanding
+├── index.html               # Main HTML file (home page)
+├── styles.css               # Core styling for homepage
+├── profile-details.html     # Profile details redirect page
+├── profile-details.css      # Styling for profile details
+├── app.js                   # JavaScript logic for interactions
+└── README.md                # Project documentation
+```
+
 ---
 
 ## Technologies Used
