@@ -19,7 +19,7 @@ window.oz = "A financial advisor is forced into laundering money for a drug cart
 window.ab = "Trapped in an abandoned Tokyo, players must survive deadly games to return to reality — or die trying.";
 window.bb = "A high school chemistry teacher turned meth kingpin transforms into one of TV’s most iconic antiheroes.";
 window.nag = "A low-level FBI agent gets pulled into a massive conspiracy involving spies, secrets, and national security.";
-window.bf = "A road rage incident escalates into a dark, twisted feud that consumes two strangers’ lives.";
+window.bf = "A young ninja with a sealed beast inside him fights to earn respect and become Hokage — the strongest leader of his village.";
 window.sg = "A Mumbai police officer uncovers a plot that could destroy the city, setting off a race against time and fate.";
 
 
